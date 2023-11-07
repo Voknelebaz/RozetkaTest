@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.header {
+    background-color: #333087;
+    background-image: url(images/background-star.png);
+    padding: 3.5rem 0;
+}
+
+.header__container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}
+
+.header__top {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.header__logo {}
+
+.header__text {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+}
+
+.header__subtitle {
+    font-size: 4rem;
+}
+
+.header__title {
+    font-size: 5rem;
+}
+
+.header__img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 25rem;
+}
+
+.header__img img {
+    width: 50%;
+}
+
+.img__left {
+    position: absolute;
+
+    left: 10%;
+    z-index: 5;
+}
+
+.img__right {
+    position: absolute;
+    bottom: 30%;
+    right: 7%;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+}
+
+.description {
+    padding: 3.5rem 0;
+    background-color: #333087;
+}
+
+.description__container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}
+
+.description__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.description__col1 {
+    max-width: 350px;
+}
+
+.description__text {
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+.description_point-point {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.description__item-text {
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+.info {
+    padding: 3.5rem 0;
+
+}
+
+.info__container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}
+
+.info__top {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.info__text {
+    font-family: 'Russo One', sans-serif;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.desktop__top {
+    z-index: 10;
+    position: absolute;
+    bottom: 55%;
+    right: 5%;
+    max-width: 15rem;
+}
+
+.desktop__bottom {
+    z-index: 11;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+}
+
+
+.info__img {
+    width: 90%;
+}
+
+.tablet {
+    display: none;
+}
+
+.phone {
+    display: none;
+}
+
+
+
+.info__articles {}
+
+.article__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+.article__info {
+    max-width: 25rem;
+}
+
+.article__info-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ee9612;
+    margin-bottom: 1rem;
+}
+
+.article__info-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+}
+
+.article__image img {
+
+    width: 21.25rem;
+    height: 21.25rem;
+}
+
+
+
+.compare {
+    padding: 3.5rem 0;
+    background-color: #333087;
+    background-image: url(images/compare_design.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.compare__container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}
+
+.compare__title {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.compare__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.compare__img {
+    margin-bottom: 2rem;
+}
+
+.compare__img img {
+    width: 100%;
+}
+
+.compare__text {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem
+}
+
+.compare__table {
+    margin-bottom: 2rem;
+}
+
+
+.compare__row-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+.compare__row-title {
+    text-align: left;
+    font-family: 'Russo One', sans-serif;
+    color: #ee9612;
+    font-size: 2rem;
+    margin-bottom: 0.5rem
+}
+
+.compare__item-text {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+.compare__row-item {
+    width: 100%;
+    background-color: #ee9612;
+    padding: 1rem 2rem;
+    border-radius: 0.625rem;
+    margin-bottom: 1rem;
+}
+
+
+.compare__bottom-text {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    margin: 0 auto;
+    max-width: 56.25rem;
+    margin-bottom: 25rem;
+}
+
+
+/*---- Header Media ---*/
+@media (max-width:56.25rem) {
+    .header__subtitle {
+        font-size: 3rem;
+    }
+
+    .header__title {
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        height: 9.375rem;
+        width: 9.375rem;
+    }
+
+    .header__top {
+        justify-content: center;
+    }
+
+    .header__img {
+        height: 15rem;
+    }
+}
+
+@media (max-width:30rem) {
+    .header__top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        height: 15.375rem;
+        width: 15.375rem;
+        margin-bottom: 1rem;
+    }
+
+    .header__title {
+        font-size: 4.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .img__left {
+        display: none;
+    }
+
+    .img__right {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__img img {
+        width: 85%;
+    }
+
+}
+
+@media (max-width:23.75rem) {
+    .header__title {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .header__img {
+        height: 15rem;
+    }
+
+    .header {
+        padding-bottom: 0;
+    }
+}
+
+/*--- Description media ---*/
+
+@media (max-width:41.25rem) {
+    .description__body {
+        flex-direction: column;
+
+    }
+
+    .description__text {
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .hide-adapt {
+        display: none;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .description_point-point {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:27.5rem) {
+    .description {
+        padding-top: 0.5rem;
+    }
+}
+
+/*--- Info Media ---*/
+
+@media (max-width:48rem) {
+    .article__info-text {
+
+        font-weight: 700;
+    }
+
+    .article__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .article__image img {
+
+        width: 15.25rem;
+        height: 15.25rem;
+    }
+}
+
+@media (max-width:26.5625rem) {
+    .article__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .item__reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width:58.125rem) {
+    .desktop__top {
+        right: 1%;
+    }
+}
+
+@media (max-width:48rem) {
+    .tablet {
+        display: block;
+        position: relative;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .tablet__top {
+        max-width: 100%;
+        position: absolute;
+        top: -8%;
+        right: 10%;
+
+    }
+
+    .tablet__bottom {
+        max-width: 100%;
+        position: absolute;
+        bottom: 5%;
+
+    }
+}
+
+@media (max-width:38.75rem) {
+    .tablet__top {
+        font-size: 1.3rem;
+    }
+
+    .tablet__bottom {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:26.5625rem) {
+    .tablet {
+        display: none;
+    }
+
+    .phone {
+        display: block;
+        position: relative;
+    }
+
+    .phone__top {
+        max-width: 10rem;
+        position: absolute;
+        top: -18%;
+        right: 5%;
+    }
+}
+
+@media (max-width:21.25rem) {
+    .phone__top {
+        top: -20%;
+        font-size: 1.2rem;
+    }
+}
+
+/*--- Compare Media ---*/
+
+@media (max-width:48rem) {
+    .compare__item-text {
+        font-size: 1.2rem;
+    }
+
+    .compare__title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:26.5625rem) {
+    .compare__title {
+        display: none;
+    }
+
+    .compare__table {
+        display: none;
+    }
+
+    .compare__items {
+        display: none;
+    }
+
+    .compare__bottom-text {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .compare {
+        padding-top: 1.5rem;
+
+    }
+}
+
+
+
+
